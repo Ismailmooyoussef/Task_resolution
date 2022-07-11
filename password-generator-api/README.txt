@@ -23,6 +23,7 @@ Args:
 
 # docker build -t image_name:image_tag .
 # docker image tag image_name USER/image_name:latest
+# docker login -u NAME
 # docker image push USER/image_name:latest
 
 
