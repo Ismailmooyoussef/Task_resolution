@@ -15,6 +15,11 @@ The program must generate the passwords in response and return them in an array.
 ### Extra Credits
 Prepare a minimal setup to deploy your application into a kubernetes cluster.
 
+ANSWER:
+
+- we should create deployment for this pod, then ingress role to expose.
+- using node port
+
 **NOTE**: When you are ready you can send the results in a public git repo back to us.
 
 ## Exercise 2: Infrastructure
