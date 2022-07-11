@@ -59,7 +59,7 @@ Answers:
 
 - for monitoring will deploy Promethues and Grafana.
 - i will create Promethues Exporters as Pods to collect Data from Kuberentes
-- for loogging, i will deploy centralized ELK.
+- for logging, i will deploy centralized ELK.
 - Run Logstash as Pod on Kubenertes cluster to collect metrics from Other pods.
 
 referred. You don't need to write any code here.
