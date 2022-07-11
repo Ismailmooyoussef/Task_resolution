@@ -21,3 +21,10 @@ Args:
 # For example: http://127.0.0.1:8000/password?min_length=6&schars_num=5&numbers_num=5&count=5
 # To see what requests can be made navigate to the /docs
 
+# docker build -t image_name:image_tag .
+# docker image tag image_name USER/image_name:latest
+# docker image push USER/image_name:latest
+
+
+
+
