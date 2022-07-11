@@ -18,7 +18,7 @@ Prepare a minimal setup to deploy your application into a kubernetes cluster.
 ANSWER:
 
 - we should create deployment for this pod, then ingress role to expose.
-- using node port
+- using node port (not recommended but it's for test purpose)
 
 **NOTE**: When you are ready you can send the results in a public git repo back to us.
 
