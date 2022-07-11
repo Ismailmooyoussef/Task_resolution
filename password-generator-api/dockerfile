@@ -2,5 +2,6 @@ FROM tiangolo/uvicorn-gunicorn:python3.10
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir fastapi
 RUN pip install -r requirements.txt
-COPY ./app /app
+RUN mkdir -p /home/app
+COPY . /home/app
 CMD [ "python", "main.py"]
